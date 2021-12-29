@@ -1,0 +1,213 @@
+global:
+  name: Web3 Landscape
+  short_name: WEB3L
+  repo: web3land/web3-landscape
+  website: https://web3land.org
+  short_domain: web3land.org
+  company_url: https://web3land.org
+  email: web3landscape@gmail.com
+  meta:
+    title: Web3 Landscape
+    description: Web3 is complicated, we're trying to make it a little less
+    twitter: 'web3land'
+  flags:
+    companies: Web3 Project
+  membership: Web3 Project
+twitter:
+  search: '@web3land'
+  url: https://web3land.org
+  text: Web3 Landscape
+relation:
+  label: Web3 Relation
+  url: web3land
+  values:
+    - id: hosted
+      label: Web3 Projects
+      children:
+        - id: Standout
+          label: Standout Project
+          prefix: w3sp
+          tag: Standout
+          color: '#00cbff'
+          big_picture_order: 1
+          big_picture_label: Standout
+          big_picture_color: rgb(108, 165, 209)
+    - id: company
+      label: Web3 Company
+      tag: Company
+      big_picture_order: 3
+    - id: member
+      label: Web3 Project
+      tag: Web3 Project
+    - id: false
+      label: Web3 Project
+      url: 'no'
+membership:
+  Web3 Project:
+    name: Web3 Project
+    label: Web3 Project
+    is_large: false
+home:
+  header: >
+    <h1>Web3 Interactive Landscape</h1>Web3 is complicated, we're trying to make it a little less. Feel free to follow us on twitter <a href="https://twitter.com/web3land">@web3land</a><br/> The Web3 landscape (<a target="_blank" href="images/landscape.png">png</a>, <a
+    target="_blank" href="images/landscape.pdf">pdf</a>) is dynamically generated below.<br/>This project is modeled after the <a href="http://landscape.cncf.io">CNCF
+    landscape</a> and based on the same open source code.
+  footer: |
+    Web3 Landscape!
+# ads:
+#   - url: https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/?utm_source=lfdl_landscape&utm_medium=web&utm_campaign=kccnceu20
+#     image: /images/info1.jpg
+#     title: Kubecon + CloudNativeCon Europe 2020
+presets:
+  - url: /format=card-mode&grouping=no&license=open-source&sort=first-commit
+    label: Open source cards by age
+  - url: /license=apache-license-2-0
+    label: Apache-2.0 landscape
+  - url: /format=card-mode&grouping=category
+    label: Cards in categories
+  - url: /format=card-mode&grouping=no&sort=stars
+    label: Cards by stars
+  - url: /format=card-mode&grouping=headquarters
+    label: Group by location
+  - url: /format=card-mode&grouping=no&sort=amount
+    label: Cards by MCap/Funding
+big_picture:
+  main:
+    tab_index: -1
+    url: landscape
+    name: Landscape
+    title: Web3 Landscape
+    fullscreen_header: See the interactive landscape at web3land.org
+    elements:
+      - type: VerticalCategory
+        category: Centralized Exchanges
+        rows: 3
+        width: 350
+        height: 380
+        top: 0
+        left: 1600
+        color: rgb(4,81,49)
+        fit_width: true
+      - type: VerticalCategory
+        category: Wallets
+        rows: 3
+        width: 350
+        height: 380
+        top: 400
+        left: 1600
+        color: rgb(4,81,49)
+        fit_width: true
+      - type: VerticalCategory
+        category: Security
+        rows: 3
+        width: 350
+        height: 380
+        top: 800
+        left: 1600
+        color: rgb(4,81,49)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Marketplaces
+        rows: 3
+        width: 1550
+        height: 190
+        top: 0
+        left: 0
+        color: rgb(4,81,49)
+        fit_width: true
+      - type: HorizontalCategory
+        category: DAO
+        rows: 3
+        width: 250
+        height: 190
+        top: 220     
+        left: 1295
+        color: rgb(193,83,21)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Gaming
+        rows: 3
+        width: 250
+        height: 190
+        top: 220     
+        left: 1035
+        color: rgb(193,83,21)
+        fit_width: true
+      - type: HorizontalCategory
+        category: DeFi
+        rows: 3
+        width: 765
+        height: 190
+        top: 220     
+        left: 260
+        color: rgb(193,83,21)
+        fit_width: true
+      - type: HorizontalCategory
+        category: DApps
+        rows: 3
+        width: 250
+        height: 190
+        top: 220     
+        left: 0
+        color: rgb(193,83,21)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Scale
+        rows: 3
+        width: 1550
+        height: 190
+        top: 440     
+        left: 0
+        color: rgb(193,83,21)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Tokens
+        rows: 3
+        width: 770
+        height: 190
+        top: 660     
+        left: 0
+        color: rgb(193,83,21)
+        fit_width: true
+      - type: HorizontalCategory
+        category: NFT
+        rows: 3
+        width: 770
+        height: 190
+        top: 660     
+        left: 775
+        color: rgb(193,83,21)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Services
+        rows: 3
+        width: 1550
+        height: 190
+        top: 880     
+        left: 0
+        color: rgb(193,83,21)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Devtools
+        rows: 3
+        width: 1550
+        height: 190
+        top: 1100     
+        left: 0
+        color: rgb(193,83,21)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Infrastructure
+        rows: 3
+        width: 1550
+        height: 190
+        top: 1320     
+        left: 0
+        color: rgb(193,83,21)
+        fit_width: true
+test:
+  header: Web3 Interactive Landscape
+  section: Web3 Interactive Landscape
+  logo: web3-projects.svg
+prerender:
+  members: /card-mode

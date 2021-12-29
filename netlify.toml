@@ -1,0 +1,14 @@
+[build]
+  base = "netlify"
+  publish = "dist"
+  command = "curl -vvv -s -k -L https://raw.github.com/web3land/web3-landscapeapp/master/netlify/landscape.js -o landscape.js && node landscape.js"
+  ignore = "false"
+  environment = { RUBY_VERSION = "2.6.2", NODE_VERSION="v16.12" }
+
+[functions]
+  directory = "functions"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200

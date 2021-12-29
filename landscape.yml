@@ -1,0 +1,423 @@
+landscape:
+  - category:
+    name: Security
+    subcategories:
+      - subcategory:
+        name: Security
+        items:
+          - item:
+            name: forta.org
+            homepage_url: https://www.forta.org/
+            logo: forta.svg
+            repo_url: https://github.com/forta-protocol/forta-agent-sdk
+          - item:
+            name: redefine
+            homepage_url: https://redefine.net/
+            logo: redefine.svg
+          - item:
+            name: scrt
+            homepage_url: https://scrt.network/
+            logo: scrt.svg
+            repo_url: https://github.com/scrtlabs/SecretNetwork
+  - category:
+    name: Wallets
+    subcategories:
+      - subcategory:
+        name: Custodial
+        items:
+          - item:
+            name: coinbase wallet
+            homepage_url: https://coinbase.com/
+            logo: coinbase.svg
+      - subcategory:
+        name: Non-Custodial
+        items:
+          - item:
+            name: metamask
+            homepage_url: https://metamask.io/
+            logo: metamask.svg
+            repo_url: https://github.com/MetaMask/metamask-extension
+          - item:
+            name: Status
+            homepage_url: https://status.im/
+            logo: status.svg
+            repo_url: https://github.com/status-im/status-go
+  - category:
+    name: Centralized Exchanges
+    subcategories:
+      - subcategory:
+        name: Centralized Exchanges
+        items:
+          - item:
+            name: coinswitch
+            homepage_url: https://coinswitch.co/
+            logo: coinswitch.svg
+          - item:
+            name: coinbase exchange
+            homepage_url: https://www.coinbase.com
+            logo: coinbase.svg
+            repo_url: https://www.github.com/coinbase
+  - category:
+    name: Marketplaces
+    subcategories:
+      - subcategory:
+        name: Marketplaces
+        items:
+          - item:
+            name: Snapshot
+            homepage_url: https://www.snapshot.org/
+            repo_url: https://github.com/snapshot-labs/snapshot
+            project_org: https://github.com/snapshot-labs
+            logo: snapshot-logo.svg
+          - item:
+            name: Juicebox
+            homepage_url: https://www.juicebox.money/
+            repo_url: https://github.com/jbx-protocol/juice-interface
+            project_org: https://github.com/jbx-protocol
+            logo: juicebox-logo.svg
+          - item:
+            name: opensea
+            homepage_url: https://opensea.io/
+            repo_url: https://github.com/ProjectOpenSea/opensea-js
+            project_org: https://github.com/ProjectOpenSea
+            logo: opensea.svg
+          - item:
+            name: foundation.app
+            homepage_url: https://foundation.app/
+            logo: foundationapp.svg
+            repo_url: https://github.com/f8n/fnd-docs
+  - category:
+    name: DAO
+    subcategories:
+      - subcategory:
+        name: DAO
+        items:
+          - item:
+            name: DeveloperDAO
+            homepage_url: https://www.developerdao.com/
+            repo_url: https://github.com/Developer-DAO/developer-dao-nft-contract
+            project_org: https://github.com/Developer-DAO
+            logo: developerdao-logo.svg
+          - item:
+            name: Gitcoin
+            homepage_url: https://www.gitcoin.co/
+            project_org: https://github.com/gitcoinco
+            repo_url: https://github.com/gitcoinco/web
+            logo: gitcoin.svg
+          - item:
+            name: ConstitutionDAO
+            homepage_url: https://www.constitutiondao.com/
+            logo: constitutiondao.svg
+            repo_url: https://github.com/Constitution-DAO/contracts
+          - item:
+            name: BanklessDAO
+            homepage_url: https://www.bankless.community/
+            logo: BanklessDAO.svg
+            repo_url: https://github.com/BanklessDAO/bankless-dao-website
+  - category:
+    name: Gaming
+    subcategories:
+      - subcategory:
+        name: Gaming
+        items:
+          - item:
+            name: Axie Infinity
+            homepage_url: https://axieinfinity.com
+            logo: axi-logo.svg
+            repo_url: https://github.com/axieinfinity/public-smart-contracts
+          - item:
+            name: the sandbox
+            homepage_url: https://www.sandbox.game
+            logo: sandbox.svg
+            repo_url: https://github.com/thesandboxgame/sandbox-smart-contracts
+  - category:
+    name: DeFi
+    subcategories:
+      - subcategory:
+        name: DeFi
+        items:
+          - item:
+            name: AAVE
+            homepage_url: https://aave.com
+            logo: aave-logo.svg
+            repo_url: https://github.com/aave/aave-protocol
+          - item:
+            name: DyDx
+            homepage_url: https://DyDx.com
+            logo: dydx-logo.svg
+            repo_url: https://github.com/dydxprotocol/solo
+          - item:
+            name: MakerDAO
+            homepage_url: https://makerdao.com
+            repo_url: https://github.com/makerdao/developerguides
+            project_org: https://github.com/makerdao
+            logo: makerdao-logo.svg
+          - item:
+            name: OlympusDAO
+            homepage_url: https://www.olympusdao.finance/
+            logo: olympusdao-logo.svg
+          - item:
+            name: Compound
+            homepage_url: https://compound.finance/
+            logo: compound.svg
+          - item:
+            name: Anchor
+            homepage_url: https://anchorprotocol.com/
+            logo: anchorprotocol.svg
+          - item:
+            name: celsius
+            homepage_url: https://celsius.network/
+            logo: celsius.svg
+          - item:
+            name: goldfinch
+            homepage_url: https://goldfinch.finance/
+            logo: goldfinch.svg
+          - item:
+            name: badger
+            homepage_url: https://www.badger.com
+            repo_url: https://github.com/Badger-Finance/badger-system
+            project_org: https://github.com/Badger-Finance
+            logo: badger.svg
+          - item:
+            name: Circle
+            homepage_url: https://www.circle.com/
+            logo: circle.svg
+      - subcategory:
+        name: Dex
+        items:
+          - item:
+            name: Uniswap
+            homepage_url: https://uniswap.com
+            repo_url: https://github.com/Uniswap/v3-core
+            project_org: https://github.com/Uniswap
+            logo: uniswap-logo.svg
+          - item:
+            name: Sushiswap
+            homepage_url: https://Sushiswap.com
+            repo_url: https://github.com/sushiswap/sushiswap
+            project_org: https://github.com/sushiswap
+            logo: sushiswap-logo.svg
+          - item:
+            name: curve
+            homepage_url: https://www.curve.fi
+            logo: curve.svg
+  - category:
+    name: DApps
+    subcategories:
+      - subcategory:
+        name: DApps
+        items: null
+  - category:
+    name: Scale
+    subcategories:
+      - subcategory:
+        name: Interoperability
+        items:
+          - item:
+            name: RenVM
+            homepage_url: https://renvm.com
+            repo_url: https://github.com/renproject/multichain
+            logo: renvm-logo.svg
+          - item:
+            name: Polkadot
+            homepage_url: https://polkadot.com
+            repo_url: https://github.com/paritytech/polkadot
+            logo: polkadot-logo.svg
+          - item:
+            name: Avalanche
+            homepage_url: https://www.avax.network.com
+            logo: avalanche.svg
+          - item:
+            name: Polygon
+            homepage_url: https://polygon.com
+            repo_url: https://github.com/maticnetwork/contracts
+            logo: polygon-logo.svg
+          - item:
+            name: wBTC
+            homepage_url: https://wbtc.network
+            repo_url: https://github.com/WrappedBTC/bitcoin-token-smart-contracts
+            logo: wbtc-logo.svg
+          - item:
+            name: loomx
+            homepage_url: https://loomx.io/
+            logo: loomx.svg
+      - subcategory:
+        name: Layer2
+        items:
+          - item:
+            name: Starknet
+            homepage_url: http://starkware.com
+            project_org: https://github.com/starkware-libs
+            repo_url: https://github.com/starkware-libs/cairo-lang
+            logo: starkware.svg
+          - item:
+            name: zkSync
+            homepage_url: http://zksync.com
+            logo: zksync-logo.svg
+          - item:
+            name: arbitrum
+            homepage_url: https://offchainlabs.com/
+            logo: arbitrum_logo.svg
+          - item:
+            name: Aleo
+            homepage_url: https://aleo.org/
+            logo: aleo.svg
+  - category:
+    name: NFT
+    subcategories:
+      - subcategory:
+        name: NFT
+        items:
+          - item:
+            name: Bored Ape Yacht Club
+            homepage_url: https://boredapeyachtclub.com
+            logo: boredapeyachtclub.svg
+          - item:
+            name: Crypto Punks
+            homepage_url: https://opensea.io/collection/cryptopunks
+            logo: cryptopunks.svg
+          - item:
+            name: ENS
+            homepage_url: https://ens.domains
+            logo: ens.svg
+          - item:
+            name: Unstoppabledomains
+            homepage_url: https://unstoppabledomains.com/
+            logo: unstoppabledomains.svg
+          - item:
+            name: Handshake
+            homepage_url: https://handshake.org/
+            logo: handshake.svg
+  - category:
+    name: Tokens
+    subcategories:
+      - subcategory:
+        name: Tokens
+        items:
+          - item:
+            name: Shiba Inu
+            homepage_url: https://shibatoken.com/
+            logo: shiba-inu.svg
+      - subcategory:
+        name: Stable Coins
+        items:
+          - item:
+            name: dai
+            homepage_url: https://makerdao.com/en/
+            logo: dai-logo.svg
+          - item:
+            name: tether
+            homepage_url: https://tether.to
+            logo: tether-logo.svg
+          - item:
+            name: USDC
+            homepage_url: https://www.circle.com/en/usdc
+            logo: usdc.svg
+  - category:
+    name: Services
+    subcategories:
+      - subcategory:
+        name: Services
+        items:
+          - item:
+            name: Alchemy
+            homepage_url: https://alchemy.com
+            logo: alchemy-logo.svg
+          - item:
+            name: Infura
+            homepage_url: https://infura.io/
+            logo: infura-logo.svg
+          - item:
+            name: nansen
+            homepage_url: https://www.nansen.ai/
+            logo: nansen.svg
+  - category:
+    name: Devtools
+    subcategories:
+      - subcategory:
+        name: Devtools
+        items:
+          - item:
+            name: OpenZeppelin
+            homepage_url: https://openzeppelin.com/
+            logo: openzeppelin-logo.svg
+            repo_url: https://github.com/OpenZeppelin/openzeppelin-contracts
+          - item:
+            name: Truffle
+            homepage_url: https://github.com/trufflesuite/truffle
+            repo_url: https://github.com/trufflesuite/truffle
+            project_org: https://github.com/trufflesuite
+            logo: truffle-logo-dark.svg
+          - item:
+            name: Hardhat
+            homepage_url: https://github.com/nomiclabs/hardhat
+            repo_url: https://github.com/nomiclabs/hardhat
+            logo: hardhat.svg
+          - item:
+            name: Ganache
+            homepage_url: https://github.com/truffle/ganache
+            repo_url: https://github.com/trufflesuite/ganache
+            logo: ganache-logo.svg
+          - item:
+            name: Scaffold-eth
+            homepage_url: https://scaffoldeth.io
+            repo_url: https://github.com/scaffold-eth/scaffold-eth
+            project_org: https://github.com/scaffold-eth
+            logo: scaffold-eth.svg
+  - category:
+    name: Infrastructure
+    subcategories:
+      - subcategory:
+        name: Storage
+        items:
+          - item:
+            name: Protocol Labs
+            homepage_url: https://protocol.ai
+            logo: protocol-labs.svg
+          - item:
+            name: Arweave
+            homepage_url: https://arweave.org
+            logo: arweave.svg
+          - item:
+            name: ipfs
+            homepage_url: https://ipfs.io
+            logo: ipfs.svg
+          - item:
+            name: filecoin
+            homepage_url: https://filecoin.io/
+            logo: filecoin.svg
+      - subcategory:
+        name: Oracles
+        items:
+          - item:
+            name: Chainlink
+            homepage_url: https://chain.link
+            repo_url: https://github.com/smartcontractkit/chainlink
+            project_org: https://github.com/smartcontractkit
+            logo: chainlink.svg
+          - item:
+            name: winklink
+            homepage_url: https://winklink.org
+            logo: winklink.svg
+          - item:
+            name: DOS Network
+            homepage_url: https://dos.network/
+            logo: dosnetwork.svg
+          - item:
+            name: Provable
+            homepage_url: https://provable.xyz/
+            logo: provable.svg
+          - item:
+            name: Paralink
+            homepage_url: https://paralink.network/
+            logo: paralink.svg
+  - category:
+    name: Web3 Project
+    subcategories:
+      - subcategory:
+        name: Web3 Project
+        items:
+          - item:
+            name: Web3 Project
+            homepage_url: https://web3land.org/
+            logo: web3-projects.svg
